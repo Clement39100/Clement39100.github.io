@@ -1,0 +1,96 @@
+#button-showhide {
+    position: fixed;
+    background-color: darkcyan;
+}
+
+#button-record {
+    position: fixed;
+    top: 550px;
+    right: 480px;
+    background-color: darkmagenta;
+    color: white;
+    padding: 30px;
+}
+
+#select-image-front {
+    position: fixed;
+    top: 660px;
+    right: 85px;
+    padding: 30px;
+    padding-right: 300px;
+    background-color: blue;
+    color: white;
+}
+
+#select-image-back {
+    position: fixed;
+    top: 760px;
+    right: 85px;
+    padding: 30px;
+    padding-right: 300px;
+    background-color: white;
+}
+
+#select-option {
+    position: fixed;
+    top: 860px;
+    right: 85px;
+    padding: 30px;
+    padding-right: 353px;
+    background-color: red;
+    color: white;
+}
+
+#range-spectre {
+    position: fixed;
+    bottom: 390px;
+    right: 340px;
+}
+
+#range-density {
+    position: fixed;
+    bottom: 340px;
+    right: 340px;
+}
+
+@media(max-width:780px) {
+    #button-record {
+        top: 550px;
+        right: 480px;
+    }
+}
+
+@media(max-width:780px) {
+    #select-image-front {
+        top: 660px;
+        right: 85px;
+    }
+}
+
+@media(max-width:780px) {
+    #select-image-back {
+        top: 760px;
+        right: 85px;
+    }
+}
+
+@media(max-width:780px) {
+    #select-option {
+        top: 860px;
+        right: 85px;
+    }
+}
+
+@media(max-width:780px) {
+    #range-spectre {
+        top: 550px;
+        right: 300px;
+    }
+}
+
+@media(max-width:780px) {
+    #range-density {
+        top: 600px;
+        right: 300px;
+    }
+}
